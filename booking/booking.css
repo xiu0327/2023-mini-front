@@ -1,0 +1,47 @@
+body {
+    background-color: white;
+    font-family:"Raleway";
+}
+
+.form {
+    position: absolute;
+    top:50%;
+    left:70%;
+    transform:translate(-50%,-50%);
+    width:425px;
+    height:637px;
+    padding:10px;
+}
+
+.form .form-elements {
+    margin-top:15px;
+}
+
+.form .form-elements .form-element {
+    display: flex;
+    width: 360px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.form .form-elements .form-element label {
+    align-self: stretch;
+    color: #52525C;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 22.5px */
+}
+
+.form .form-elements .form-element input {
+    display: flex;
+    padding: 12px 16px;
+    align-items: center;
+    gap: 8px;
+    border-radius: 8px;
+    border: 2px solid #D9D9D9;
+    background: #FFF;
+    align-self: stretch;
+}
